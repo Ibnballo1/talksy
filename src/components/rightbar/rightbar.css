@@ -61,14 +61,14 @@
   color: #555;
 }
 
-.rightbarinfoValue {
+.rightbarInfoValue {
   font-weight: 300;
 }
 
 .rightbarFollowings {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
 .rightbarFollowing {
