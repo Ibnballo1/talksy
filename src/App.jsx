@@ -4,10 +4,10 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 
 function App() {
-  // return <Home />;
+  return <Home />;
   // return <Profile />;
   // return <Login />;
-  return <Register />;
+  // return <Register />;
 }
 
 export default App;
